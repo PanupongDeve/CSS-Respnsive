@@ -16,6 +16,13 @@ h1 {
   font-weight: lighter;
 }
 
+h3 {
+  width: 100%;
+  text-align: center;
+  margin-top: 0;
+  font-size: 30px;
+}
+
 .aw-container {
   display: flex;
   flex-wrap: wrap;
@@ -112,6 +119,7 @@ header nav ul.aw-navigation li a:hover:after {
   opacity: .7;
 }
 
+
 /* Logo */
 
 a.aw-logo {
@@ -125,6 +133,20 @@ a.aw-logo {
   text-decoration: none;
   border: solid 2px #fff;
   border-radius: 100%;
+}
+
+/* Sections  */
+
+.aw-section {
+  padding: 85px 0;
+}
+
+/* About us */
+
+#aw-about .aw-column {
+  width: 40%;
+  margin-top: 25px;
+  text-align: center;
 }
 
 /* Animation */
