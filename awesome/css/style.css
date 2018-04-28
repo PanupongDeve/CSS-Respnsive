@@ -1,3 +1,7 @@
+/* Fonts */
+
+@import 'fonts.css';
+
 /* General styles  */
 
 body {
@@ -8,6 +12,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
 }
 
 h1 {
@@ -21,6 +29,10 @@ h3 {
   text-align: center;
   margin-top: 0;
   font-size: 30px;
+}
+
+h3:first-letter {
+  color: #0084b4;
 }
 
 .aw-container {
@@ -147,6 +159,11 @@ a.aw-logo {
   width: 40%;
   margin-top: 25px;
   text-align: center;
+}
+
+#aw-about i {
+  font-size: 45px;
+  color: #0084b4;
 }
 
 /* Animation */
